@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/white-waves.png') repeat;
+    font-family: Arial, Arial, Helvetica, sans-serif; 
+    overflow: auto;
+    color: #777777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 6px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    display: inline-block;
+    padding: 30px;
+    font-size: 24x;
+}
+
+nav { 
+    width: 350x;
+    margin-top: 30px;
+    text-align: center; 
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a{
+    color: #777777;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-right: 2px solid #777777;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+footer{
+   background: #666666;
+   border-top: 6px solid #4aaaa5;
+   color: #cccccc;
+   text-align: center;
+   padding: 40px;
+   margin-top: 30px;
+}
+
+form label{
+    font-size: 20px;
+    display: block;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 3px solid #cccccc;
+    padding: 10px;
+    font-size: 18px;
+}
+
+form button{
+    background: #cccccc;
+    color: #4aaaa5;
+    padding: 15px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+textarea {
+    height: 300px;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    display:block;
+    clear: both;
+}
+
+.portfolio-pic {
+    position: relative;
+    margin-bottom: 20px; 
+    width: 33.33%;
+    float: left;
+    height: 250px;
+ }
+
+ .portfolio-pic h4 {
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom:15px;
+    width: 15px;
+ }
+
+section {
+    background: whtie;
+    padding:25px;
+    border: 2px solid #cccccc;
+}
+
+.inline-img{
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 4px groove #777777;
+}
+
+#left-column {
+    width: 960px;
+    float: left;
+}
+
+#left-column h2{
+    width: 920px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+    
+}
+
+#pic1 {
+    background: url('../images/aniket-deole-294646-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    clear: both;
+}
+
+#pic2 {
+    background: url('../images/daniela-cuevas-21225-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    clear: both;
+}
+
+#pic3{
+    background: url('../images/irene-davila-329992-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    clear: both;
+}
+
+#pic4 {
+    background: url('../images/jeremy-bishop-527439-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    clear: both;
+} 
+
+#pic5 {
+    background: url('../images/pietro-de-grandi-329892-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    clear: both;
+}
+
+#pic6 {
+   background: url('../images/rob-bates-701730-unsplash.jpg');
+   background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    clear: both;
+}
